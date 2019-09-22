@@ -31,7 +31,6 @@
 
 #include "vendor_init.h"
 #include "property_service.h"
-#include "android/log.h"
 
 char const *heapgrowthlimit;
 char const *heapminfree;

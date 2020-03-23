@@ -58,3 +58,4 @@ ro.vendor.extension_library=libqti-perfd-client.so
 
 # Radio
 persist.vendor.radio.procedure_bytes=SKIP
+ro.telephony.iwlan_operation_mode=legacy

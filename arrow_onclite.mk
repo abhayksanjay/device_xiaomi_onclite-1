@@ -15,8 +15,6 @@ $(call inherit-product, device/xiaomi/onclite/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/arrow/config/common.mk)
 
-ARROW_GAPPS := true
-
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := arrow_onclite
 PRODUCT_DEVICE := onclite

@@ -210,7 +210,11 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss.measurement_corrections@1.1 \
     android.hardware.gnss.measurement_corrections@1.1.vendor \
     android.hardware.gnss.visibility_control@1.0 \
-    android.hardware.gnss.visibility_control@1.0.vendor
+    android.hardware.gnss.visibility_control@1.0.vendor \
+    android.hardware.gnss@1.1.vendor \
+    android.hardware.gnss@1.2.vendor \
+    android.hardware.gnss@2.0.vendor \
+    android.hardware.gnss@3.0.vendor
 
 # Health HAL
 PRODUCT_PACKAGES += \
@@ -329,7 +333,9 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.perf@2.0.vendor \
     vendor.qti.hardware.perf@2.0-service \
     android.hardware.power@1.2 \
-    android.hardware.power@1.2.vendor
+    android.hardware.power@1.2.vendor \
+    android.hardware.power@1.0.vendor \
+    android.hardware.power@1.1.vendor
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml

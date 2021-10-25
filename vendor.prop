@@ -93,3 +93,7 @@ ro.telephony.iwlan_operation_mode=legacy
 # SoC
 ro.soc.manufacturer=Qualcomm
 ro.soc.model=MSM8953
+
+# Elixir Stuff
+ro.elixir.maintainer=Abhay K Sanjay
+ro.elixir.version=1.0

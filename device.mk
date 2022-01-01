@@ -131,10 +131,6 @@ PRODUCT_PACKAGES += \
     GCamGOPrebuilt
 
 # Dalvik
-PRODUCT_PROPERTY_OVERRIDES += \
-    dalvik.vm.heapminfree=4m \
-    dalvik.vm.heapstartsize=16m
-
 $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 
 # Component overrides
